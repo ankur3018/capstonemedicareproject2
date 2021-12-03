@@ -1,0 +1,171 @@
+html, body{
+	 
+	padding:0px; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	min-height: 100%;
+    height: 100%;
+}
+ 
+ 
+ 
+.flex-fill {
+    flex:1;
+}
+
+.sidenav  {
+ 
+  border-color: #FFFFFF;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:  rgb(55,65,81);
+  overflow-x: hidden;
+  padding-top: 20px;
+  min-height: 100%;
+  height: 100%;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: rgb(251 191 36);
+}
+
+ 
+
+#page{
+ 
+  height: 100%;
+  margin-left: 13%;  
+	
+}
+
+#sm {
+	font-size : 16px !important;
+	
+}
+#logo{
+	font-family: 'Trebuchet MS', sans-serif;
+	text-align: center;
+	color: white;
+	font-size : 26px !important;
+}
+
+.bar-item{
+	
+		
+		border-color: #FFFFFF;
+		border-width: 3px;
+		border-bottom: 1.5px solid rgba(255, 255, 255, 0.247);
+		 
+}
+
+
+
+table {   
+	border-collapse:collapse;
+	border:1px solid #aaa;
+	font-family: Tahoma,Verdana,Segoe,sans-serif;
+	width:80%;
+	table-layout: fixed;
+	border-radius : 10px;
+    
+ 
+}
+ 
+th {
+	border-bottom:1px solid #aaa;
+	background:none repeat scroll 0 0 white;
+	padding:10px;
+	color: rgb(251 191 36);
+	border-radius : 10px;
+	font-size : 14px !important;
+}
+
+tr {
+	
+	text-align:center;	
+	border-radius : 10px;
+	
+}
+ td {
+ color : black !important;
+ border:1px solid #aaa;
+ font-size : 15px;
+ padding : 10px;
+ 
+ }
+	
+	
+
+	
+	
+	
+	
+
+    .payment
+	{
+		border:1px solid #f2f2f2;
+		height:280px;
+        border-radius:20px;
+        background:#fff;
+	}
+   .payment_header
+   {
+	   background:rgba(255,102,0,1);
+	   padding:20px;
+       border-radius:20px 20px 0px 0px;
+	   
+   }
+   
+   .check
+   {
+	   margin:0px auto;
+	   width:50px;
+	   height:50px;
+	   border-radius:100%;
+	   background:#fff;
+	   text-align:center;
+   }
+   
+   .check i
+   {
+	   vertical-align:middle;
+	   line-height:50px;
+	   font-size:30px;
+   }
+
+    .content 
+    {
+        text-align:center;
+    }
+
+    .content  h1
+    {
+        font-size:25px;
+        padding-top:25px;
+    }
+
+    .content a
+    {
+        width:200px;
+        height:35px;
+        color:#fff;
+        border-radius:30px;
+        padding:5px 10px;
+        background:rgba(255,102,0,1);
+        transition:all ease-in-out 0.3s;
+    }
+
+    .content a:hover
+    {
+        text-decoration:none;
+        background:#000;
+    }
